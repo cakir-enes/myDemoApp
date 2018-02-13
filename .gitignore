@@ -4,3 +4,4 @@ target/
 .settings/
 .vscode/
 .class
+src/main/java/com/mycompany/app/com/mycompany/app/App.class
