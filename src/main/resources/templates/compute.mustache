@@ -1,10 +1,23 @@
-<title>My app deployed automatically</title>
+<title>Is my string strong</title>
   <h1>Hola muchacos</h1>
-    Result is {{result}}
+    <h2>How to use?</h2>
+    Fill the first three forms with some integers seperated with newline.
+    <br>
+    Fill last form with a string. If sum of the ASCII value of characters in given string is greater
+    than max of given integers in the first three forms <br> given string is called <b>Strong</b> else <b>Weak</b>.
+    <br>
+    Result will appear below after clicking submit.
+    <br>
+    <h3>{{result}}</h3>
 
     <form action="compute" method="post">
         <textarea name="input1" rows="10" cols="30"></textarea>
+        <br>
         <textarea name="input2" rows="10" cols="30"></textarea>
+        <br>
+        <textarea name="input3" rows="10" cols="30"></textarea>
+        <br>
+        <textarea name="input4" rows="10" cols="16"></textarea>
         <br>
         <input type="submit">
     </form>
